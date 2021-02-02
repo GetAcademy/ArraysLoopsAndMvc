@@ -4,6 +4,7 @@ var diceValues = [];
 var diceIsHeld = [];
 var diceSymbols = ["", "⚀", "⚁", "⚂", "⚃", "⚄", "⚅"];
 
+
 // view
 function updateView() {
     var html = '';
