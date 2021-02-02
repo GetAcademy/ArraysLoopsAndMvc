@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app {
+            font-size: 1200%;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+        }
+        .isHeld{
+            background-color: lightblue;
+        }
+        .dice{
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app"></div>
+    <button onclick="roll()">Trille</button>
+    <script src="dice.js"></script>
+</body>
+
+</html>
